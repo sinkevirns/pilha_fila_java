@@ -1,4 +1,4 @@
-```
+```mermaid
 erDiagram
     CUSTOMER {
         int CustomerID
@@ -15,6 +15,7 @@ erDiagram
         string Name
         float Price
     }
-```
+
     CUSTOMER ||--o{ ORDER : places
     ORDER ||--|{ PRODUCT : contains
+```
